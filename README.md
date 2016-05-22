@@ -1,5 +1,4 @@
-# ESLint setup with VS Code and Meteor
-
+# Meteor setup with VS Code and ESLint
 Example base Meteor project setup with VS Code and ESLint:
 
 * [VS Code: ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
