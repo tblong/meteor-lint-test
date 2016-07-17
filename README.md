@@ -17,3 +17,4 @@ Example base Meteor project setup using VS Code and ESLint:
 
 5. Install all explicit and dependent node modules: `meteor npm install`
 6. Add `scripts` and `eslintConfig` settings shown in this project's `package.json` file
+7. Run the linter to test code: `meteor npm run lint`
