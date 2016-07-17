@@ -8,6 +8,10 @@
     "pretest": "npm run lint --silent"
   },
   "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "allowImportExportEverywhere": true
+    },
     "plugins": [
       "meteor"
     ],
@@ -15,6 +19,9 @@
       "airbnb",
       "plugin:meteor/recommended"
     ],
+    "settings": {
+      "import/resolver": "meteor"
+    },
     "rules": {
       "import/no-unresolved": [
         2,
